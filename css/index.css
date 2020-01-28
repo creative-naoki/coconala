@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    background-color: rgb(41, 50, 78);
+}
+
+header ul {
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+
+.service {
+    list-style: none;
+    display: flex;
+}
+
+header li {
+    margin: auto 5%;
+}
+
+main ul {
+    display: flex;
+    margin: 30px 0;
+}
+
+main li {
+    list-style: none;
+    margin: 0 10%;
+}
+
+main h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 50px 0;
+    font-size: 50px;
+    border-bottom: solid;
+    border-color: rgb(124, 134, 146);
+}
+
+main p {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+a img {
+    transform: translateX(8px);
+}
+
+main h2 {
+    color: white;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+#aicon {
+    text-align: center;
+}
+
+
+/* /////////////////////////////////////////////////////////////// */
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(89, 120, 139);
+}
+
+.header p {
+    margin-top: 17px;
+    color: white;
+    font-size: 150%;
+    font-family: 'Noto Serif JP', serif;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.news {
+    width: 90%;
+    height: 300px;
+    background-color: rgb(95, 108, 133);
+    margin: auto;
+    border-radius: 20px;
+}
+
+.news h2 {
+    color: rgb(255, 232, 103);
+    margin: 0 5%;
+    opacity: 0;
+    font-size: 35px;
+    animation: news 2s cubic-bezier(0, .81, .33, 1);
+    animation-fill-mode: forwards;
+}
+
+.tittle {
+    width: 700%;
+    height: 30px;
+    background-color: rgb(123, 197, 148);
+}
+
+.tittle p {
+    text-align: center;
+    transform: translateY(3px);
+    font-size: 20px;
+    margin: 0;
+}
+
+.info {
+    width: 700%;
+    height: 300px;
+    background-color: rgb(62, 95, 114);
+    margin: 0;
+}
+
+.info p {
+    margin: 0;
+}
+
+.tag {
+    margin: 0 8%;
+}
+
+.info_p {
+    font-size: 15px;
+}
+
+#pick {
+    color: yellow;
+}
+
+#twitter {
+    transform: translateX(10px);
+}
+
+.coconara {
+    margin: 0 50px;
+}
+
+#coconara {
+    margin: 0 10px;
+}
+
+#service {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(227, 236, 243);
+    margin-top: 0;
+}
+
+
+/* //////////////////////////////////////////////////////////// */
+
+@keyframes news {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100;
+        transform: translateY(20px);
+    }
+}
