@@ -126,6 +126,12 @@ main h2 {
     font-size: 15px;
 }
 
+.news_info {
+    font-size: 25px;
+    text-align: left;
+    margin-left: 100px;
+}
+
 #pick {
     color: yellow;
 }
